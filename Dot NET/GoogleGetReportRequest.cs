@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Sabio.Models.Requests.GoogleReportRequest
+namespace MoneFi.Models.Requests.GoogleReportRequest
 
 {
     public class GoogleGetReportRequest
