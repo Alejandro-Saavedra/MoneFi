@@ -1,7 +1,7 @@
 import React from "react";
 import ApexCharts from "./ApexCharts";
 import { useState } from "react";
-import debug from "sabio-debug";
+import debug from "debug";
 import { useEffect } from "react";
 import PropTypes from "prop-types";
 
