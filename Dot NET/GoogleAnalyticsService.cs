@@ -5,10 +5,10 @@ using Google.Apis.Http;
 using Google.Apis.Services;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using Sabio.Models.AppSettings;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests.GoogleReportRequest;
-using Sabio.Services.Interfaces;
+using MoneFi.Models.AppSettings;
+using MoneFi.Models.Domain;
+using MoneFi.Models.Requests.GoogleReportRequest;
+using MoneFi.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,7 +16,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services
+namespace MoneFi.Services
 {
     public class GoogleAnalyticsReportService : IGoogleAnalyticsReportService
     {
