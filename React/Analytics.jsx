@@ -4,7 +4,7 @@ import { Col, Row, Card, Container, InputGroup } from "react-bootstrap";
 import MostViewPages from "./MostViewPages";
 import Browsers from "./Browsers";
 import AnalyticsView from "./AnalyticsViewComponent";
-import debug from "sabio-debug";
+import debug from "debug";
 import * as GoogleAnalytics from "../../../services/analyticsService";
 import "react-datepicker/dist/react-datepicker.css";
 import { Formik, Field, ErrorMessage, Form as FormikForm } from "formik";
