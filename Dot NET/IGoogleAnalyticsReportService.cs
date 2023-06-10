@@ -1,7 +1,7 @@
 ﻿using Google.Apis.AnalyticsReporting.v4.Data;
-using Sabio.Models.Requests.GoogleReportRequest;
+using MoneFi.Models.Requests.GoogleReportRequest;
 
-namespace Sabio.Services.Interfaces
+namespace MoneFi.Services.Interfaces
 {
     public interface IGoogleAnalyticsReportService
     {
