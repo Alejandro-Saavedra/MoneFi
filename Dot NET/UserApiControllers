@@ -1,0 +1,37 @@
+[HttpPut("passwordUpdate/{id:int}")]
+        public ActionResult<int> UpdatePassword(UserPasswordUpdateRequest request)
+        {
+            int code = 200;
+            BaseResponse response = null;
+            try
+            {
+                string requestUrl = _appKeys.DomainUrl + "/login";
+                _service.UpdateUserPassword(request, requestUrl);
+                response = new SuccessResponse();
+            }
+            catch (Exception ex)
+            {
+                code = 500;
+                response = new ErrorResponse(ex.Message);
+            }
+            return StatusCode(code, response);
+        }
+
+        [HttpPut("emailUpdate/{id:int}")]
+        public ActionResult<int> UpdateEmail(UserEmailUpdateRequest request)
+        {
+            int code = 200;
+            BaseResponse response = null;
+            try
+            {
+                string requestUrl = _appKeys.DomainUrl + "/login";
+                _service.UpdateUserEmail(request, requestUrl);
+                response = new SuccessResponse();
+            }
+            catch (Exception ex)
+            {
+                code = 500;
+                response = new ErrorResponse(ex.Message);
+            }
+            return StatusCode(code, response);
+        }
