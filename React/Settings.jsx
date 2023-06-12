@@ -3,7 +3,7 @@ import { Formik, Form, Field, ErrorMessage, useFormikContext } from "formik";
 import { Col, Row, Card, Button } from "react-bootstrap";
 import PropTypes from "prop-types";
 import { updateEmail, updatePassword } from "services/userService";
-import debug from "sabio-debug";
+import debug from "debug";
 import PasswordStrengthMeter from "./PasswordStrengthMeter";
 import { getCurrent } from "services/userService";
 import { Fragment } from "react";
@@ -20,11 +20,9 @@ const Settings = (props) => {
   _logger("props", props.logout);
   const [formData, setFormData] = useState({
     id: 0,
-    avatarUrl: "",
     email: "",
     firstName: "",
     lastName: "",
-    mi: "",
   });
 
   const PasswordMeter = () => {
