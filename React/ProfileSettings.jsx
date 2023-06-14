@@ -3,7 +3,7 @@ import { Card, Form, Row, Col, Button, Image } from "react-bootstrap";
 import { Formik, Field } from "formik";
 import PropTypes from "prop-types";
 import UploadFile from "components/files/UploadFile";
-import debug from "sabio-debug";
+import debug from "debug";
 import { useState } from "react";
 
 const _logger = debug.extend("UserSettings");
