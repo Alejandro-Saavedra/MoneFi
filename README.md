@@ -7,6 +7,7 @@ As a software engineer, my responsibility was to implement the Administrator Ana
 ***Features***
 
 ***- Analytics Dashboard***
+<a href="https://clipchamp.com/watch/efibqCkCBgc">Click for Demo</a>
 
 ***- User Security Settings***
 
