@@ -21,3 +21,7 @@ As a software engineer, my responsibility was to implement the Administrator Ana
 - Utilized best practices and followed coding standards to maintain high-quality code.
 - Implemented security measures to log out a user automatically after they change their password or email.
 - Set up an automated email system to send notifications to users after they change their password or email.
+
+
+
+*Please note that MoneFi is currently a Minimal Viable Product and due to proprietary restrictions, I can only provide code snippets in this repository.
